@@ -201,3 +201,18 @@ Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
 
 //   document.write("<br>");
 // }
+
+/*
+7- Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma : (suponiendo que indica 30).
+
+*/ 
+
+let numero = parseInt(prompt('Ingrese un numero'))
+let i, repeticion;
+for (i = numero; i >= 1; i--) {
+  for (repeticion =i; repeticion >= 1; repeticion--) {
+    document.write(i);
+  }
+
+  document.write("<br>");
+}
